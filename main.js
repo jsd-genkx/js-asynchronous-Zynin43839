@@ -13,7 +13,8 @@ import { fetchDataBasic } from "./12-fetch-data-basic.js";
 import { asyncAwaitBasic } from "./13-async-await-basic.js";
 import { fetchDataAsync } from "./14-fetch-data-async.js";
 import { fetchDataAsyncSingle } from "./15-try-catch-finally.js";
-import { fetchPost } from "./exercises/01-fetch-api-posts.js";
+import { fetchPostsThen } from "./exercises/01-fetch-api-posts.js";
+import { fetchPostsAsync } from "./exercises/02-fetch-async-await-posts.js";
 
 const runButton = document.getElementById("runCodeBtn");
 
@@ -47,9 +48,12 @@ runButton.addEventListener("click", () => {
 	/* 14-fetch-data-async.js */
 	// fetchDataAsync();
 	/* 15-try-catch-finally.js */
-
-
 	// 01-fetchDataAsyncSingle(10);
+
 	// 16.01-fetch-api-posts.js
-	fetchPost();
+	// fetchPostsThen();
+
+	//17.02-fetch-async-await-posts.js
+	fetchPostsAsync()
+
 });

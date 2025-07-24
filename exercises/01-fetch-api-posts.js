@@ -7,7 +7,7 @@ TODO-01: Create a function named fetchPostsThen
 
 TODO-02: Export fetchPostsThen and test it in main.js 
 */
-export const fetchPost = () => {
+export const fetchPostsThen = () => {
         const resource = "https://dummyjson.com/posts"
         fetch(resource)
             .then((respondse) =>{
